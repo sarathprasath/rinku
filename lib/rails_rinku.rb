@@ -25,5 +25,5 @@ end
 
 module ActionView::Helpers::TextHelper
  include RailsRinku
- alias_method :auto_link, :rinku_auto_link
+ # alias_method :auto_link, :rinku_auto_link
 end
